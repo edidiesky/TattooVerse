@@ -124,8 +124,8 @@ button:disabled {
 :root {
   --grey-1: #e0e0e0;
   --dark-1: #000000;
-  --link: #f7cab0;
-  --link-dark: #89392a;
+  --pink: #f7cab0;
+  --pink_dark: #89392a;
   --background_2: #983f2f;
   --button-gradient: radial-gradient(
     circle at center center,
@@ -144,7 +144,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
-  line-height: 1.4;
+  line-height: 1.6;
   font-family: "Proza", Arial, Helvetica, sans-serif;
 }
 .family1 {

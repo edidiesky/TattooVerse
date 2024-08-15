@@ -14,7 +14,7 @@ const linkData = [
   },
   {
     title: "Our Information",
-    path: "information",
+    path: "tattoo/about",
   },
   {
     title: "Contact Us",

@@ -4,6 +4,7 @@ import "./index.css";
 import Layout from "./screens/Layout";
 const HomeWrapper = lazy(() => import("./screens/Home"));
 const ContactWrapper = lazy(() => import("./screens/Contact"));
+const InfoWrapper = lazy(() => import("./screens/Info"));
 // const SearchWrapper = lazy(() => import("./screens/Search"));
 // PaymentSuccess
 export default function App() {
@@ -27,6 +28,15 @@ export default function App() {
             element={
               <Suspense fallback={<></>}>
                 <ContactWrapper />
+              </Suspense>
+            }
+          />
+
+          <Route
+            path="tattoo/about"
+            element={
+              <Suspense fallback={<></>}>
+                <InfoWrapper />
               </Suspense>
             }
           />
