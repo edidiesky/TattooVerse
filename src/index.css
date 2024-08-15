@@ -162,23 +162,22 @@ body {
   overflow: hidden !important;
 }
 .background {
-  background-image: radial-gradient(circle at center center, hsla(0,0%,7%,85% 0%,#111111 30%,
-  url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/hero-tattoo-bg-1.png)));
+  background-image: url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/hero-tattoo-bg-1.png);
+  background-color:  #111111;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.pink_background {
+  background-color: hsla(22, 82%, 78%,calc(100% - 90%));
+  background-image: url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/logo-bg-2.png);
 }
 
 textarea {
-  border: 1px solid rgba(0, 0, 0, 0.2) !important;
-  padding: 0.6rem;
+  padding:4rem 0.6rem;
   font-family: "Proza";
-  border-radius: 10px;
 }
 
-input {
-  border: none;
-  outline: none;
-  font-family: "Proza";
-}
 
 input::placeholder {
   font-size: inherit;
@@ -196,7 +195,7 @@ input::placeholder {
 }
 
 .btn {
-  backgrounD: var(--button-gradient);
+  background: var(--button-gradient);
   cursor: pointer;
   transition: all 0.4s;
   /* font-family: "Bebas Neue", sans-serif; */

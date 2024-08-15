@@ -29,7 +29,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="p-3 z-[50] bg-[#121212e6] px-2 md:px-8 min-h-[100px] fixed w-full top-0 left-0 flex items-center justify-center">
+      <div className="p-3 z-[50] bg-[#111111] px-2 md:px-8 min-h-[100px] fixed w-full top-0 left-0 flex items-center justify-center">
         <div className="w-full flex items-center gap-2 justify-between">
           <Link to={"/"} className=" flex items-center gap-1 justify-start">
             <img
@@ -41,9 +41,9 @@ const Navbar = () => {
               src="https://www.hopper.com/assets/treasure-D-5S8iOp.svg"
               className="w-14 h-14 rounded-full object-cover"
             />
-            <h4 className="hidden md:flex font-bold flex-col text-sm md:text-base font-booking_font4 text-[#fff]">
+            <h4 className="flex font-bold flex-col text-base font-booking_font4 text-[#fff]">
               TattooVerse{" "}
-              <span className="block text-grey text-xs font-normal font-booking_font">
+              <span className="block text-grey text-xs font-normal family1 font-booking_font">
                 {" "}
                 Home of Tattoos
               </span>
@@ -64,7 +64,7 @@ const Navbar = () => {
             })}
           </div>
           <div className="flex items-center justify-end">
-            <button className="btn family1 px-8 py-4 text-base text-white">
+            <button className="btn family1 px-8 py-4 md:px-10 md:py-6 text-sm md:text-base text-white">
               GET TATTOOED
             </button>
           </div>
