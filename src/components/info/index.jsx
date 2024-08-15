@@ -4,8 +4,6 @@ import Footer from "../common/Footer";
 import Hero from "./Hero";
 import About from "./About";
 import Banners from "./Banners";
-import Artists from "./Artists";
-import Choosing from "./Choosing";
 import News from "./News";
 const HomeIndex = () => {
   return (
@@ -15,8 +13,6 @@ const HomeIndex = () => {
         <Hero />
         <About />
         <Banners />
-        <Artists />
-        <Choosing />
         <News />
       </div>
       <Footer />

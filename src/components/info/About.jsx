@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="w-full flex items-center justify-center relative min-h-[40vh] py-32">
       <div className="max-w-custom w-[93%] mx-auto grid md:grid-cols-2 gap-20">
-        <div className="w-full flex gap-8 items-center">
-          <div className="w-[300px] mt-20 h-[450px]">
+        <div className="w-full grid md:grid-cols-2 gap-8 items-center">
+          <div className=" md:w-[100%] md:mt-20 h-[380px] md:h-[450px]">
             <Image
               src={
                 "https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/about-tattoo-1-400x757.jpg"
@@ -13,7 +13,7 @@ const About = () => {
               alt={"background_image_1"}
             />
           </div>
-          <div className="w-[300px] -mt-20 h-[450px]">
+          <div className=" md:w-[100%] md:-mt-20 h-[380px] md:h-[450px]">
             <Image
               src={
                 "https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/about-tattoo-2-400x757.jpg"

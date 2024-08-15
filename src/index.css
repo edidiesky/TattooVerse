@@ -120,6 +120,11 @@
 button:disabled {
   cursor: not-allowed;
 }
+.lazy-load-image-background.blur.lazy-load-image-loaded > img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
+}
 
 :root {
   --grey-1: #e0e0e0;
@@ -163,21 +168,35 @@ body {
 }
 .background {
   background-image: url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/hero-tattoo-bg-1.png);
-  background-color:  #111111;
+  background-color: #111111;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
 }
 .pink_background {
-  background-color: hsla(22, 82%, 78%,calc(100% - 90%));
+  background-color: hsla(22, 82%, 78%, calc(100% - 90%));
   background-image: url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/logo-bg-2.png);
 }
 
+.background_dark {
+  background: linear-gradient(
+      165deg,
+      #121212 0%,
+      hsla(0, 0%, 32%, calc(100% - 100%)) 70%
+    ),
+    url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/tattoo-pen-bg-4.jpg);
+}
+/* url("https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/grunge-bg-1.png") */
+
+.background_dark_2 {
+  background-color: #111111;
+  background-image: 
+    url("https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/grunge-bg-1.png");
+}
 textarea {
-  padding:4rem 0.6rem;
+  padding: 4rem 0.6rem;
   font-family: "Proza";
 }
-
 
 input::placeholder {
   font-size: inherit;
