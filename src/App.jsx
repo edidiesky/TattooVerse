@@ -4,6 +4,7 @@ import "./index.css";
 import Layout from "./screens/Layout";
 const HomeWrapper = lazy(() => import("./screens/Home"));
 const ContactWrapper = lazy(() => import("./screens/Contact"));
+const FAQWrapper = lazy(() => import("./screens/FAQ"));
 const InfoWrapper = lazy(() => import("./screens/Info"));
 const ArtistWrapper = lazy(() => import("./screens/Artist"));
 // Artist
@@ -38,6 +39,14 @@ export default function App() {
             element={
               <Suspense fallback={<></>}>
                 <ArtistWrapper />
+              </Suspense>
+            }
+          />
+          <Route
+            path="tattoo/faq"
+            element={
+              <Suspense fallback={<></>}>
+                <FAQWrapper />
               </Suspense>
             }
           />

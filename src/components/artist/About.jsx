@@ -3,7 +3,7 @@ import Image from "../common/Image";
 
 const About = () => {
   return (
-    <div className="w-full py-20">
+    <div className="w-full py-32">
       <div className="max-w-custom w-[90%] mx-auto flex flex-col gap-24">
         <div className="w-full flex flex-col gap-4 items-center justify-center">
           <h2 className="family2 md:text-center text-6xl capitalize">

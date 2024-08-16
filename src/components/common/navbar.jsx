@@ -13,6 +13,10 @@ const linkData = [
     path: "tattoo/artists",
   },
   {
+    title: "FAQ",
+    path: "tattoo/faq",
+  },
+  {
     title: "Our Information",
     path: "tattoo/about",
   },
