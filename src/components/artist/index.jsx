@@ -11,7 +11,7 @@ const HomeIndex = () => {
   return (
     <div className="overflow-hidden w-full flex flex-col">
       <Navbar />
-      <div className="w-full flex relative">
+      <div className="w-full relative">
         <Hero />
         <About />
         <Banners />

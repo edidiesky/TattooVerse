@@ -10,7 +10,7 @@ const linkData = [
   },
   {
     title: "Artists",
-    path: "artists",
+    path: "tattoo/artists",
   },
   {
     title: "Our Information",
@@ -55,7 +55,7 @@ const Navbar = () => {
                 <Link
                   to={`/${list.path}`}
                   key={index}
-                  className={`text-sm md:text-base hover:text-grey text-[#fff] font-semibold flex items-center gap-2 p-3 px-3 rounded-[40px]`}
+                  className={`text-sm md:text-base hover:text-grey uppercase text-[#fff] family3 flex items-center gap-2 p-3 px-3 rounded-[40px]`}
                 >
                   {/* <img src={list?.icon} className="w-4" alt="" /> */}
                   <AnimateText children={list?.title} />
