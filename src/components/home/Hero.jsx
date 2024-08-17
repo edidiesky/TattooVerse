@@ -21,9 +21,9 @@ const Hero = () => {
       />
       <div className="absolute z-20 top-8 left-0 w-full">
         <div className="max-w-custom flex w-[90%] mx-auto items-center justify-between gap-4">
-          <h2 className="text-4xl family2 text-white">TattooVerse</h2>
-          <div className="flex items-center justify-end gap-6">
-            <div className="btn w-[190px] text-white h-[66px] flex items-center justify-center">
+          <h2 className="text-3xl sm:text-4xl family2 text-white">TattooVerse</h2>
+          <div className="flex items-center justify-end gap-3 md:gap-6">
+            <div className="btn px-8 text-white h-[66px] hidden md:flex items-center justify-center">
               Get A Tattoo
             </div>
             <HiBars3BottomRight fontSize={"40px"} color={"#fff"} />

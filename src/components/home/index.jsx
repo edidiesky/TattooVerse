@@ -7,6 +7,7 @@ import Banners from "./Banners";
 import Artists from "./Artists";
 import Choosing from "./Choosing";
 import News from "./News";
+import Pricing from "./Pricing";
 const HomeIndex = () => {
   return (
     <div className="overflow-hidden w-full flex flex-col">
@@ -17,7 +18,8 @@ const HomeIndex = () => {
         <Banners />
         <Artists />
         <Choosing />
-        <News />
+        <Pricing/>
+        {/* <News /> */}
       </div>
       <Footer />
     </div>

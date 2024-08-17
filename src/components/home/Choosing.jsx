@@ -7,7 +7,7 @@ const Choosing = () => {
     <div className="w-full">
       <div className="relative  py-40 flex flex-col gap-24 bg-[#111111]">
         {/* <Banner1 /> */}
-        <div className="z-40 max-w-custom md:items-center w-[90%] mx-auto bg-[#111111] gap-20 grid md:grid-cols-custom_2">
+        <div className="z-40 max-w-custom md:items-center w-[90%] mx-auto bg-[#111111] gap-20 grid lg:grid-cols-custom_2">
           <div className="w-full md:w-[450px] gap-8 relative items-center">
             <div className="h-[500px] md:h-[600px]">
               <Image
@@ -30,7 +30,7 @@ const Choosing = () => {
             </div>
           </div>
           <div className="w-full flex flex-col items-start justify-center gap-8">
-            <h2 className="text-6xl md:text-7xl capitalize text-white family2">
+            <h2 className="text-5xl lg:text-7xl capitalize text-white family2">
               embrace the ink, <br /> embrace the individual
             </h2>
             <p className="text-lg text-grey family3">

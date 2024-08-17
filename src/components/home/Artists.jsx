@@ -4,7 +4,7 @@ import Image from "../common/Image";
 const Artists = () => {
   return (
     <div className="w-full py-32">
-      <div className="max-w-custom w-[95%] md:px-4 md:w-[80%] mx-auto flex flex-col gap-24">
+      <div className="max-w-custom w-[95%] md:px-4 lg:w-[90%] mx-auto flex flex-col gap-24">
         <div className="w-full flex flex-col gap-4 items-center justify-center">
           <span className="text-base md:text-lg md:text-center text-dark family3">
             Certified Tattoo Experts
