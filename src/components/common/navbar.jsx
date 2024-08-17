@@ -68,7 +68,7 @@ const Navbar = () => {
             })}
           </div>
           <div className="flex items-center justify-end">
-            <button className="btn family1 px-8 py-4 md:px-10 md:py-6 text-sm md:text-base text-white">
+            <button className="btn family1 px-8 py-4 md:px-10 md:py-5 text-sm md:text-base text-white">
               GET TATTOOED
             </button>
           </div>

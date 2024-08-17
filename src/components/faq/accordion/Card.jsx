@@ -19,8 +19,8 @@ const AccordionCard = ({ x }) => {
         style={{ transition: "all .5s" }}
         className={`${toggle ? "max-h-[20rem]" : "max-h-[0]"} `}
       >
-        <div className="p-8">
-          <p className="text-bold family3 leading-[1.7] text-lg">
+        <div className="p-6">
+          <p className="text-bold family3 leading-[1.7] text-base">
             {x.response}
           </p>
         </div>
