@@ -10,12 +10,12 @@ import News from "./News";
 const HomeIndex = () => {
   return (
     <div className="overflow-hidden w-full flex flex-col">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="w-full relative">
         <Hero />
         <About />
-        <Banners />
         <Artists />
+        <Banners />
         <Choosing />
         <News />
       </div>
