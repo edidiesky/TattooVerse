@@ -14,8 +14,8 @@ const HomeIndex = () => {
       <div className="w-full relative">
         <Hero />
         <About />
-        <Artists />
         <Banners />
+        <Artists />
         <Choosing />
         <News />
       </div>
