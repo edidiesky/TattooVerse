@@ -2,7 +2,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import AnimateText from "@/animations/AnimateText";
 const linkData = [
   {
     title: "Home",
@@ -62,7 +61,7 @@ const Navbar = () => {
                   className={`text-sm md:text-base hover:text-grey uppercase text-[#fff] family3 flex items-center gap-2 p-3 px-3 rounded-[40px]`}
                 >
                   {/* <img src={list?.icon} className="w-4" alt="" /> */}
-                  <AnimateText children={list?.title} />
+                  {list?.title}
                 </Link>
               );
             })}
