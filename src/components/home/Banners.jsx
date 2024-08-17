@@ -45,12 +45,12 @@ const Banners = () => {
             return (
               <div
                 key={index}
-                className=" md:h-[450px] w-full relative grid sm:grid-cols-2 items-center justify-center"
+                className=" w-full relative grid sm:grid-cols-2 items-center justify-center"
               >
-                <div className="w-full object-cover h-[300px] md:h-full z-10">
+                <div className="w-full object-cover h-[300px] md:h-[480px] z-10">
                   <Image src={data?.image} alt="" />
                 </div>
-                <div className="w-full bg-[#111111] hover:bg-[#0e0e0e] p-8 flex flex-col gap-4 md:items-center justify-center h-full">
+                <div className="w-full bg-[#111111] hover:bg-[#0e0e0e] py-12 px-8 flex flex-col gap-4 md:items-center justify-center h-full">
                   <h3 className="text-4xl capitalize md:text-center text-white family2">
                     {data?.title}
                   </h3>

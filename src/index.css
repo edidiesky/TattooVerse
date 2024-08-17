@@ -158,16 +158,14 @@ body {
   background-color: #111111;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
 }
 .hero_background {
-  background-position: center;
-  background-image: linear-gradient(
-      180deg,
-      hsla(0, 0%, 7%, calc(100% - 70%)) 0%,
-      hsla(0, 0%, 2%, 85%) 100%
-    ),
-    url(https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/hero-image-avada-tattoo-2.jpg);
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 7%, calc(100% - 70%)) 0%,
+    hsla(0, 0%, 2%, 85%) 100%
+  );
 }
 .pink_background {
   background-color: hsla(22, 82%, 78%, calc(100% - 90%));
@@ -232,8 +230,7 @@ input::placeholder {
 .btn_2:hover {
   background: var(--button-gradient);
   border: 1px solid var(--button-gradient);
-
-} 
+}
 
 .hide {
   overflow: hidden;
