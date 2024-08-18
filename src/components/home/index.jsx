@@ -19,7 +19,7 @@ const HomeIndex = () => {
         <Artists />
         <Choosing />
         <Pricing/>
-        {/* <News /> */}
+        <News />
       </div>
       <Footer />
     </div>

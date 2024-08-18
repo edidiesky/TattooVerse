@@ -160,6 +160,12 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.background_grey {
+  background-size: contain;
+  background-color: hsla(0,0%,calc(19% - 3%),100%);
+  background-image: url("https://avada.website/tattoo/wp-content/uploads/sites/180/2023/07/grunge-bg-1.png");
+}
 .hero_background {
   background: linear-gradient(
     180deg,

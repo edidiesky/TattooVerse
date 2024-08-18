@@ -24,7 +24,7 @@ const Pricing = () => {
                   style={{
                     WebkitTextStroke: "1px #eee",
                   }}
-                  className="family3 text-6xl text-white"
+                  className="family3 text-6xl md:text-8xl text-white"
                 >
                   0{index + 1}
                 </h1>
