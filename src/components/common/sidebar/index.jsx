@@ -34,14 +34,14 @@ const linklist = [
 ];
 const variants = {
   open: {
-    height: "100vh",
-    top: 0,
-    transition: { duration: 1.2, ease: [0.76, 0, 0.24, 1] },
+    width: "100vw",
+    left: 0,
+    transition: { duration: 1.4, ease: [0.76, 0, 0.24, 1] },
   },
   close: {
-    height: 0,
+    width: 0,
     transition: { duration: 1, ease: [0.76, 0, 0.24, 1], delay: 0.9 },
-    top: "-100%",
+    left: "-100%",
   },
 };
 
@@ -67,9 +67,9 @@ const Sidebar = ({ menu, setMenu }) => {
       variants={variants}
       initial={"close"}
       animate={menu ? "open" : "close"}
-      style={{ height: "100vh", zIndex: 200 }}
+      style={{ width: "100vw", zIndex: 200 }}
       ref={menuref}
-      className="bg-[#000] fixed top-0 w-full left-0 right-0 flex items-center justify-center"
+      className="bg-[#000] fixed top-0 w-full h-[100vh] left-0 right-0 flex items-center justify-center"
     >
       <div
         onClick={() => setMenu(!menu)}
@@ -79,7 +79,7 @@ const Sidebar = ({ menu, setMenu }) => {
         <RxCross1 />
       </div>
 
-      <div className="h-full z-20 w-[90%] max-w-custom_1 py-20 mx-auto grid grid-cols-1 items-center justify-center lg:grid-cols-1 gap-12">
+      <div className="h-full z-20 w-[90%] max-w-custom_1 py-20 mx-auto flex items-start justify-center flex-col gap-12">
         <AnimatePresence mode="wait">
           {menu && (
             <div className="flex flex-col gap-1">

@@ -39,10 +39,10 @@ const Text = ({ x, index }) => {
         exit={"exit"}
         custom={index}
         key={index}
-        className="text-5xl lg:text-7xl border-b text-start border-[rgba(255,255,255,.05)] h-20 overflow-hidden w-full z-20 
+        className=" border-b text-start border-[rgba(255,255,255,.05)] h-20 overflow-hidden w-full z-20 
       relative font-normal text-white uppercase family2"
       >
-        <h1 className="text-5xl lg:text-7xl w-full z-20 font-normal text-white uppercase family2">
+        <h1 className="text-4xl lg:text-7xl w-full z-20 font-normal text-white uppercase family2">
           <Link to={`${x?.path}`}>
             <AnimateText color={x?.color} children={x?.title} />
           </Link>
