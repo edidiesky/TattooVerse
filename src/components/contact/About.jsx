@@ -51,7 +51,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex flex-col gap-4 md:gap-8">
-          <h2 className="family2 text-5xl text-dark">
+          <h2 className="family2 text-4xl md:text-5xl text-dark">
             Do You Have A Tattoo In Mind? Bring your vision to life with us
           </h2>
           <span className="block text-base md:text-lg family3 text-dark">
