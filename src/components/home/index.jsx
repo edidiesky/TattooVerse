@@ -8,17 +8,17 @@ import Artists from "./Artists";
 import Choosing from "./Choosing";
 import News from "./News";
 import Pricing from "./Pricing";
-const HomeIndex = () => {
+const HomeIndex = ({ setMenu }) => {
   return (
     <div className="overflow-hidden w-full flex flex-col">
       {/* <Navbar /> */}
       <div className="w-full relative">
-        <Hero />
+        <Hero setMenu={setMenu} />
         <About />
         <Banners />
         <Artists />
         <Choosing />
-        <Pricing/>
+        <Pricing />
         <News />
       </div>
       <Footer />

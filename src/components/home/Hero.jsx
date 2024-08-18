@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-const Hero = () => {
+const Hero = ({ setMenu }) => {
   return (
     <div className="w-full flex items-center min-h-[100vh] justify-center relative hero_background py-32">
       {/* <img
@@ -21,12 +21,16 @@ const Hero = () => {
       />
       <div className="absolute z-20 top-8 left-0 w-full">
         <div className="max-w-custom flex w-[90%] mx-auto items-center justify-between gap-4">
-          <h2 className="text-3xl sm:text-4xl family2 text-white">TattooVerse</h2>
+          <h2 className="text-3xl sm:text-4xl family2 text-white">
+            TattooVerse
+          </h2>
           <div className="flex items-center justify-end gap-3 md:gap-6">
             <div className="btn px-8 text-white h-[66px] hidden md:flex items-center justify-center">
               Get A Tattoo
             </div>
-            <HiBars3BottomRight fontSize={"40px"} color={"#fff"} />
+            <span className="cursor-pointer" onClick={() => setMenu(true)}>
+              <HiBars3BottomRight fontSize={"40px"} color={"#fff"} />
+            </span>
           </div>
         </div>
       </div>
