@@ -38,7 +38,7 @@ const AccordionCard = ({ x, type }) => {
         <div className="w-8 h-8 flex items-center justify-center bg-[#f7cab0]">
           {toggle ? <BiPlus /> : <BiMinus />}
         </div>
-        <h3 className="text-2xl family2">{x.title}</h3>
+        <h3 className="text-2xl text-dark family2">{x.title}</h3>
       </div>
       <div
         style={{ transition: "all .5s" }}
